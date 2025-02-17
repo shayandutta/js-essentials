@@ -83,3 +83,13 @@ const calculate = function(radiusArray, formula){ //formula is a callback functi
 }
 console.log(calculate(radius, formulaOfArea));
 console.log(calculate(radius, formulaOfCircumference));
+
+
+
+//Arrow function
+
+// const multiply = (num1, num2) => {
+//     return num1*num2;
+// }
+const multiply = (num1, num2) => num1*num2; //when the arrow function body isnt big then this can be made even shorter by removing {} and return keyword
+console.log(multiply(2,3));
